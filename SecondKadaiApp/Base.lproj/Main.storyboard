@@ -21,7 +21,7 @@
                                 <rect key="frame" x="285.5" y="435" width="30" height="30"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
-                                    <segue destination="30K-O1-fXi" kind="show" id="Jtd-KT-Zzu"/>
+                                    <segue destination="30K-O1-fXi" kind="show" animates="NO" id="Jtd-KT-Zzu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNx-hN-XVs">
