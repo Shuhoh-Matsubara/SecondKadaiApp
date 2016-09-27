@@ -11,10 +11,21 @@ import UIKit
 class helloViewController: UIViewController {
 
     @IBOutlet weak var helloLabel: UILabel!
+    var name: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if name == ""{
+            self.view.backgroundColor = UIColor.redColor()
+            helloLabel.numberOfLines = 2;
+            helloLabel.text = "前の画面に戻って\n名前を入力してください。"
+            // 名前の入力がない場合の背景色設定とコメントを追加
+            
+        }else{
+            self.view.backgroundColor = UIColor.cyanColor()
+            helloLabel.text = "こんにちは \(name) さん"
+            }
         // Do any additional setup after loading the view.
     }
 
